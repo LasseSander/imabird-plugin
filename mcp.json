@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "imabird": {
+      "type": "streamable-http",
+      "url": "https://www.imabird.productions/agent/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "api_key",
+            "headerScheme": "bearer"
+          }
+        }
+      }
+    }
+  }
+}

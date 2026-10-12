@@ -1,0 +1,20 @@
+{
+  "name": "imabird",
+  "interface": {
+    "displayName": "IMABIRD"
+  },
+  "plugins": [
+    {
+      "name": "imabird",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

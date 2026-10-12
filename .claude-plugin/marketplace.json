@@ -1,0 +1,15 @@
+{
+  "name": "imabird",
+  "description": "IMABIRD plugins for Claude Code",
+  "owner": {
+    "name": "IMABIRD",
+    "url": "https://www.imabird.productions"
+  },
+  "plugins": [
+    {
+      "name": "imabird",
+      "source": ".",
+      "description": "Edit short-form videos in IMABIRD from your agent."
+    }
+  ]
+}

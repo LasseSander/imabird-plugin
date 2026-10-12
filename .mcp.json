@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "imabird": {
+      "type": "http",
+      "url": "https://www.imabird.productions/agent/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.imabird_api_key}"
+      }
+    }
+  }
+}

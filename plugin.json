@@ -1,0 +1,26 @@
+{
+  "name": "imabird",
+  "version": "0.1.0",
+  "description": "Edit short-form videos in IMABIRD from your agent: cut, caption, reframe, add motion graphics and export Cuts while you watch in the editor.",
+  "author": {
+    "name": "IMABIRD",
+    "url": "https://www.imabird.productions"
+  },
+  "homepage": "https://www.imabird.productions/api",
+  "repository": "https://github.com/LasseSander/imabird-plugin",
+  "license": "MIT",
+  "keywords": ["video", "video-editing", "short-form", "captions", "motion-graphics", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "IMABIRD",
+        "shortDescription": "Edit short-form videos in IMABIRD.",
+        "developerName": "IMABIRD",
+        "category": "Productivity",
+        "websiteURL": "https://www.imabird.productions",
+        "privacyPolicyURL": "https://www.imabird.productions/privacy",
+        "termsOfServiceURL": "https://www.imabird.productions/terms"
+      }
+    }
+  }
+}
